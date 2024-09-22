@@ -4,7 +4,8 @@
 	"description": "Backend application",
 	"main": "app.js",
 	"scripts": {
-		"start": "node app.js"
+		"start": "node app.js",
+		"dev": "nodemon app.js"
 	},
 	"keywords": [
 		"NodeJS",
@@ -13,6 +14,12 @@
 	"author": "Abdurahman Rahmanbekov",
 	"license": "ISC",
 	"dependencies": {
-		"express": "^4.21.0"
+		"dotenv": "^16.4.5",
+		"express": "^4.21.0",
+		"mongoose": "^8.6.3",
+		"uuid": "^10.0.0"
+	},
+	"devDependencies": {
+		"nodemon": "^3.1.7"
 	}
 }
