@@ -1,0 +1,18 @@
+{
+	"name": "backend",
+	"version": "1.0.0",
+	"description": "Backend application",
+	"main": "app.js",
+	"scripts": {
+		"start": "node app.js"
+	},
+	"keywords": [
+		"NodeJS",
+		"ExpressJS"
+	],
+	"author": "Abdurahman Rahmanbekov",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.21.0"
+	}
+}
